@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//NPS Reframed//ZH-TW//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Reframed 戲劇公演
+X-WR-CALNAME:Reframed 戲劇公演（Ethan 參演）
 BEGIN:VTIMEZONE
 TZID:Asia/Singapore
 BEGIN:STANDARD
@@ -18,12 +18,12 @@ UID:setup-0603@nps-reframed
 DTSTAMP:20260529T040000Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
-SUMMARY:Reframed 場佈與技術準備日（參演者）
+SUMMARY:Reframed 場佈與技術準備日｜Ethan 參演
 LOCATION:Drama Centre Theatre\, 100 Victoria Street\, National Library Building\, Level 3\, Singapore 188064
-DESCRIPTION:參演學生（主演/音樂/後台/後勤/編舞/製作支援）須出席。確切時間待學校通知。地點同演出場地。
+DESCRIPTION:Ethan 為參演者，須出席場佈與技術準備日。確切時間待學校通知。地點同演出場地。
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:明天是 Reframed 場佈日（參演者）
+DESCRIPTION:明天是 Reframed 場佈日，Ethan 需到場
 TRIGGER:-PT6H
 END:VALARM
 END:VEVENT
@@ -32,17 +32,17 @@ UID:show1-report-0604@nps-reframed
 DTSTAMP:20260529T040000Z
 DTSTART;TZID=Asia/Singapore:20260604T123000
 DTEND;TZID=Asia/Singapore:20260604T203000
-SUMMARY:Reframed Show 1 報到 12:30（參演者）
+SUMMARY:Reframed Show 1 報到 12:30｜Ethan 參演
 LOCATION:Drama Centre Theatre\, 100 Victoria Street\, National Library Building\, Level 3\, Singapore 188064
-DESCRIPTION:中午 12:30 到場報到。須著演出服裝抵達；自備午餐/點心/水壺/化妝包。演出 18:00 開始。當天不上常規課。
+DESCRIPTION:Ethan 中午 12:30 到場報到。須著演出服裝抵達；自備午餐/點心/水壺/化妝包。演出 18:00 開始。當天不上常規課。
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:明天 Reframed Show 1：12:30 報到，記得帶服裝/食物
+DESCRIPTION:明天 Reframed Show 1：Ethan 12:30 報到，帶服裝/食物
 TRIGGER:-PT18H30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:今天 12:30 Reframed Show 1 報到
+DESCRIPTION:今天 12:30 Ethan Show 1 報到
 TRIGGER:-PT3H30M
 END:VALARM
 END:VEVENT
@@ -51,17 +51,17 @@ UID:show2-report-0605@nps-reframed
 DTSTAMP:20260529T040000Z
 DTSTART;TZID=Asia/Singapore:20260605T123000
 DTEND;TZID=Asia/Singapore:20260605T203000
-SUMMARY:Reframed Show 2 報到 12:30（參演者）
+SUMMARY:Reframed Show 2 報到 12:30｜Ethan 參演
 LOCATION:Drama Centre Theatre\, 100 Victoria Street\, National Library Building\, Level 3\, Singapore 188064
-DESCRIPTION:中午 12:30 到場報到。須著演出服裝抵達；自備午餐/點心/水壺/化妝包。演出 18:00 開始。當天不上常規課。
+DESCRIPTION:Ethan 中午 12:30 到場報到。須著演出服裝抵達；自備午餐/點心/水壺/化妝包。演出 18:00 開始。當天不上常規課。
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:明天 Reframed Show 2：12:30 報到，記得帶服裝/食物
+DESCRIPTION:明天 Reframed Show 2：Ethan 12:30 報到，帶服裝/食物
 TRIGGER:-PT18H30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:今天 12:30 Reframed Show 2 報到
+DESCRIPTION:今天 12:30 Ethan Show 2 報到
 TRIGGER:-PT3H30M
 END:VALARM
 END:VEVENT
@@ -70,17 +70,17 @@ UID:show1-watch-0604@nps-reframed
 DTSTAMP:20260529T040000Z
 DTSTART;TZID=Asia/Singapore:20260604T173000
 DTEND;TZID=Asia/Singapore:20260604T203000
-SUMMARY:Reframed Show 1 演出（觀眾）
+SUMMARY:Reframed Show 1 演出｜家長觀賞
 LOCATION:Drama Centre Theatre\, 100 Victoria Street\, National Library Building\, Level 3\, Singapore 188064
-DESCRIPTION:開門 17:30，請於 18:00 前入座。每位學生有 2 張入場券供家人/賓客。地點：戲劇中心劇院。
+DESCRIPTION:家長/家人觀賞 Ethan 演出。開門 17:30，請於 18:00 前入座。每位學生有 2 張入場券。地點：戲劇中心劇院。
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:明天晚上 Reframed Show 1 演出（17:30 開門）
+DESCRIPTION:明晚 Reframed Show 1 演出（17:30 開門）
 TRIGGER:-PT22H30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:今天 Reframed Show 1：17:30 開門，18:00 入座
+DESCRIPTION:今天 Show 1：17:30 開門，18:00 入座
 TRIGGER:-PT1H30M
 END:VALARM
 END:VEVENT
@@ -89,17 +89,17 @@ UID:show2-watch-0605@nps-reframed
 DTSTAMP:20260529T040000Z
 DTSTART;TZID=Asia/Singapore:20260605T173000
 DTEND;TZID=Asia/Singapore:20260605T203000
-SUMMARY:Reframed Show 2 演出（觀眾）
+SUMMARY:Reframed Show 2 演出｜家長觀賞
 LOCATION:Drama Centre Theatre\, 100 Victoria Street\, National Library Building\, Level 3\, Singapore 188064
-DESCRIPTION:開門 17:30，請於 18:00 前入座。每位學生有 2 張入場券供家人/賓客。地點：戲劇中心劇院。
+DESCRIPTION:家長/家人觀賞 Ethan 演出。開門 17:30，請於 18:00 前入座。每位學生有 2 張入場券。地點：戲劇中心劇院。
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:明天晚上 Reframed Show 2 演出（17:30 開門）
+DESCRIPTION:明晚 Reframed Show 2 演出（17:30 開門）
 TRIGGER:-PT22H30M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:今天 Reframed Show 2：17:30 開門，18:00 入座
+DESCRIPTION:今天 Show 2：17:30 開門，18:00 入座
 TRIGGER:-PT1H30M
 END:VALARM
 END:VEVENT
